@@ -1,0 +1,70 @@
+:root {
+	--primary: #3e1374;
+	--primary-light: #6c1dd0;
+	--primary-dark: #300e59;
+	--primary-darkness: #1b0833;
+
+	--shadow: #00000029;
+
+	--secondary: #707070;
+	--secondary-light: #9a9a9a;
+
+	--divisor: #e6e6e6;
+
+	--white: #ffffff;
+	--light: #fafafa;
+
+	--info-light: 176, 224, 226;
+}
+
+@font-face {
+	font-family: MuseoSans;
+	src: url(/fonts/MuseoSansCondensed-500.ttf);
+}
+
+@font-face {
+	font-family: MuseoSansLight;
+	src: url(/fonts/MuseoSansCondensed-300.ttf);
+}
+
+@font-face {
+	font-family: MuseoSansBold;
+	src: url(/fonts/MuseoSansCondensed-700.ttf);
+}
+
+* {
+	-webkit-font-smooth: antialised;
+	font-family: MuseoSans;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	font-size: 62.5%;
+	font-family: MuseoSans, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+		Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+	color: var(--white);
+}
+
+body {
+	background: rgba(var(--info-light), 0.15);
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.font-16 {
+	font-size: 1.6rem;
+}
+
+#billingInfos {
+	display: none;
+}
